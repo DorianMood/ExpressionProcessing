@@ -1,18 +1,7 @@
 import java.math.BigDecimal;
 import java.util.*;
 
-/**
- * Класс содержит утилиты для разбора и обработки математических выражений.
- *
- * @author Борис Марченко
- * @version $Revision$ $Date$
- */
 public class Main {
-    /**
-     * Основные математические операции и их приоритеты.
-     *
-     * @see #sortingStation(String, java.util.Map)
-     */
     public static final Map<String, Integer> MAIN_MATH_OPERATIONS;
 
     static {
